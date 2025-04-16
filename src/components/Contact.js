@@ -13,7 +13,7 @@ const Contact = () => {
       <p className="mb-2">Feel free to reach out to me through the following channels:</p>
       <ul className="space-y-2 text-blue-600 dark:text-blue-300">
         <li>Email: <a href="mailto:tipulido0829@gmail.com" className="underline">tipulido0829@gmail.com</a></li>
-        <li>GitHub: <a href="https://github.com/yourusername" className="underline">github.com/yourusername</a></li>
+        <li>GitHub: <a href="https://github.com/TIP0205" className="underline">github.com/TIP0205</a></li>
       </ul>
     </motion.section>
   );
