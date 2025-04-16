@@ -6,12 +6,12 @@ const skills = ['JavaScript', 'React', 'Tailwind CSS', 'Framer Motion', 'Node.js
 const Skills = () => {
   return (
     <motion.section
-      className="mt-8"
+      className="mt-8 px-4"
       initial={{ opacity: 0, scale: 0.95 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <h2 className="text-2xl font-semibold mb-4">🛠️ Skills</h2>
+      <h2 className="text-xl sm:text-2xl font-semibold mb-4">🛠️ Skills</h2>
       <div className="flex flex-wrap gap-3">
         {skills.map((skill, index) => (
           <span
